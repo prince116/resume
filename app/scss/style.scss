@@ -1,0 +1,101 @@
+// global
+body {
+    background: rgba(0,0,0,0.02) !important;
+    font-family: "ff-tisa-web-pro",Palatino," Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+h1, h2 {
+    font-family: "din-condensed-web","Trebuchet MS","Arial Narrow",Arial,sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #000;
+    margin: 0 0 1.25rem;
+}
+
+h4 {
+    font-family: "din-condensed-web",Palatino," Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: normal;
+    
+    line-height: 25.5px;
+}
+
+h6 {
+    font-family: "ff-tisa-web-pro",Palatino," Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 10px;
+    line-height: 17.5px;
+}
+
+// heading
+.heading {
+    padding: 50px 0;
+}
+
+// Profile
+.resume_introduction,
+.last-section {
+    padding: 0 0 30px 0;
+    border-bottom: #CCC 1px solid;
+}
+
+.resume_experience, 
+.heading_2 {
+    padding: 30px 0;
+}
+
+.resume_education-1st {
+    padding-top: 30px;
+}
+
+.resume_role {
+    font-family: "ff-tisa-web-pro",Palatino," Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 10px;
+    line-height: 17.5px;
+    padding: 5px 0;
+    color: #000;
+    display: block;
+}
+
+.resume_list {
+    position:relative; 
+    display:inline-block;
+    list-style-type: none;
+    left: -50px;
+
+    li { font-size: 10px; display: inline-block; padding: 0 20px; }
+    li:before {
+        position: relative;
+        left: -10px;
+        content: "\2022";
+    }
+}
+
+.skill_heading {
+    padding-top: 30px;
+}
+
+.footer {
+    background: #000;
+    color: #FFF;
+    font-size: 16px;   
+}
+
+a:hover { text-decoration: none; }
+
+@media( min-width: 1200px ){
+    .resume_role {
+        display: inline-block;
+        padding: 8px 0 0 20px;
+    }
+
+    h4 {
+        line-height: 17.5px;
+    }
+}
