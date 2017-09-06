@@ -61,7 +61,7 @@ h6 {
   position: relative;
   display: inline-block;
   list-style-type: none;
-  left: -50px; }
+  padding: 0; }
   .resume_list li {
     font-size: 12px;
     display: inline-block;
